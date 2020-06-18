@@ -87,3 +87,82 @@ a {
     }
 }
 
+.reasons {
+
+    // .reasons__header
+
+    &__header {
+    }
+
+    // .reasons__description
+
+    &__description {
+    }
+
+    // .reasons__subdescription
+
+    &__subdescription {
+    }
+}
+.container {
+}
+.city {
+
+    // .city__defenition
+
+    &__defenition {
+    }
+
+    // .city__image
+
+    &__image {
+    }
+}
+.defenition {
+
+    // .defenition__title
+
+    &__title {
+    }
+
+    // .defenition__subtitle
+
+    &__subtitle {
+    }
+
+    // .defenition__about
+
+    &__about {
+    }
+}
+.advantages {
+
+    // .advantages__card
+
+    &__card {
+    }
+
+    // .advantages__title
+
+    &__title {
+        
+    }
+
+    // .advantages__subtitle
+
+    &__subtitle {
+    }
+}
+.advatages {
+
+    // .advatages__card
+
+    &__card {
+
+        // .advatages__card--house
+
+        &--house::before {
+            
+        }
+    }
+}
