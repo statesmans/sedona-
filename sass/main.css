@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Thirsty Script";
-  src: url("../fonts/PTS75F.ttf") format("ttf");
+  font-family: 'Born Strong';
+  src: url("../fonts/BornStrong-Black.ttf");
 }
 
 @font-face {
-  font-family: 'PT San';
+  font-family: 'Thirsty Script';
   src: url("../fonts/ThirstyScriptExtraBoldDemo.otf");
 }
 
@@ -88,7 +88,11 @@ a {
   height: 400px;
 }
 
-.page-wraper .hero .hero-main .hero__title {
-  font-family: 'PT San';
+.page-wraper .hero .hero-main .hero__greetings {
+  font-family: 'Born Strong';
+}
+
+.page-wraper .hero .hero-main .hero__subgreetings {
+  font-family: 'Thirsty Script';
 }
 /*# sourceMappingURL=main.css.map */
