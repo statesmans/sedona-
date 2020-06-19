@@ -166,3 +166,19 @@ a {
         }
     }
 }
+
+.review {
+
+    // .review__title
+
+    &__title {
+    }
+
+    // .review__text
+
+    &__text textarea{
+        resize: none;
+    }
+}
+
+

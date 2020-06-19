@@ -95,4 +95,8 @@ a {
 .page-wraper .hero .hero-main .hero__subgreetings {
   font-family: 'Thirsty Script';
 }
+
+.review__text textarea {
+  resize: none;
+}
 /*# sourceMappingURL=main.css.map */
