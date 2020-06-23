@@ -1,0 +1,276 @@
+
+
+
+
+
+
+.reasons {
+    padding-top: 50px;
+
+    &__header {
+        max-width: 490px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__description {
+        margin-bottom: 30px;
+        @include title();
+    }
+
+    &__subdescription {
+        @include subtitle();
+    }
+}
+
+
+.city {
+    display: flex;
+    text-align: center;
+
+    &__defenition {
+    }
+    &__image {
+        display: flex;
+    }
+
+}
+
+
+.defenition {
+    padding: 53px 63px 0;
+    background-color: #81b3d2;
+    color: #fff;
+    &__title {
+        @include title();
+    }
+
+    &__subtitle {
+        @include subtitle();
+        @include number-lines();
+        &::before, &::after {
+            background-color: #fff;
+        }
+        padding: 19px 0 30px;
+    }
+
+    &__about {
+        @include subtitle();
+    }
+}
+
+
+.advantages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0 85px 0;;
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 23%;
+    }
+
+    &__title {
+        @include title();
+    }
+
+    &__subtitle {
+        @include subtitle();
+    }
+}
+
+
+.advatages {
+
+    &__card {
+
+        &--housing::before {
+            content: url('/common/img/icon-house.png');
+            margin-bottom: 30px;
+        }
+
+        &--food::before {
+            content: url('/common/img/icon-burger.png');
+            margin-bottom: 30px;
+        }
+
+        &--souvenir::before {
+            content: url('/common/img/icon-gift.png');
+            margin-bottom: 30px;
+        }
+    }
+}
+
+
+.bridge {
+    display: flex;
+    text-align: center;
+    &__image {
+        display: flex;
+    }
+}
+.bridge-defenition {
+    width: 100%;
+    padding: 53px 0;
+    background-color: #81b3d2;
+    color: #fff;
+
+    &__title {
+        @include title();
+    }
+
+    &__subtitle {
+        @include subtitle();
+        @include number-lines();
+        &::before, &::after {
+            background-color: #fff;
+        }
+        padding: 19px 0 30px;
+    }
+
+    &__about {
+        @include subtitle();
+    }
+}
+
+
+.benefits {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0 70px 0;
+    text-align: center;
+    background-color: #eeeeee;
+}
+.benefits-block {
+    max-width: 28%;
+
+    &--area {
+        max-width: 29%;
+    }
+
+    &__title {
+        max-width: 47%;
+        margin: 0 auto;
+        @include title();
+        color: #333333;
+    }
+
+.benefits-block__subtitle
+
+    &__subtitle {
+        @include subtitle();
+        @include number-lines();
+        &::before, &::after {
+            background-color: #333333;
+        }
+        padding: 17px 0 30px;
+    }
+
+    &__about {
+        @include subtitle();
+        color: #333333;
+    }
+}
+
+
+.search {
+    padding: 57px 0 66px 0;
+    text-align: center;
+    &__title {
+        @include title();
+        padding-bottom: 35px;
+    }
+
+    &__subtitle {
+        @include subtitle();
+    }
+
+    &__submit {
+        margin-top: 52px;
+    }
+    .submit {
+        &__button {
+            width: 38%;
+            height: 58px;
+            font-size: 21px;
+            font-weight: 700;
+            color: #fff;
+            background-color: #81b3d2;
+            border: none;
+            cursor: pointer;
+            &:focus {
+                outline: none;
+            }
+            &:hover {
+                background-color: #6ca4c7;
+            }
+        }
+    }
+}
+
+
+.map {
+    &__item {
+        width: 100%;
+    }
+}
+
+.footer {
+
+    // .footer__block
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 35px;
+    }
+
+    // .footer__tag
+
+    &__tag {
+        font-size: 21px;
+        font-weight: 700;
+    }
+
+    // .footer__social
+
+    &__social {
+        display: flex;
+
+    }
+
+    // .footer__development
+
+    &__development {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.development {
+    &__defenition {
+        margin-right: 10px;
+    }
+}
+.social {
+
+    // .social__item
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 46px;
+        height: 48px;
+        margin-right: 8px;
+        background-color: #81b3d2;
+    }
+}
+
+
+
