@@ -187,6 +187,7 @@ a {
     opacity: 1; }
 
 .introduce {
+  width: 41%;
   border-left: 1px solid #dbdbdb;
   padding-left: 75px;
   text-align: start; }

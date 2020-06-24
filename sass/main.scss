@@ -188,6 +188,7 @@
 
     &__title {
         @include title();
+        margin-bottom: 35px;
     }
 
     &__subtitle {
@@ -271,7 +272,7 @@
         color: #333333;
     }
 
-.benefits-block__subtitle
+
 
     &__subtitle {
         @include subtitle();

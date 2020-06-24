@@ -235,7 +235,8 @@ a {
     max-width: 23%; }
   .advantages__title {
     font-size: 21px;
-    font-weight: 700; }
+    font-weight: 700;
+    margin-bottom: 35px; }
   .advantages__subtitle {
     font-size: 14px;
     font-weight: 400; }
@@ -307,30 +308,25 @@ a {
     font-size: 21px;
     font-weight: 700;
     color: #333333; }
-  .benefits-block__subtitle
-.benefits-block__subtitle {
+  .benefits-block__subtitle {
     font-size: 14px;
     font-weight: 400;
     padding: 17px 0 30px; }
-    .benefits-block__subtitle
-.benefits-block__subtitle::before {
+    .benefits-block__subtitle::before {
       content: '';
       display: inline-block;
       width: 10px;
       height: 2px;
       vertical-align: middle;
       margin: 0 5px 2px 0; }
-    .benefits-block__subtitle
-.benefits-block__subtitle::after {
+    .benefits-block__subtitle::after {
       content: '';
       display: inline-block;
       width: 10px;
       height: 2px;
       vertical-align: middle;
       margin: 0 0 2px 5px; }
-    .benefits-block__subtitle
-.benefits-block__subtitle::before, .benefits-block__subtitle
-.benefits-block__subtitle::after {
+    .benefits-block__subtitle::before, .benefits-block__subtitle::after {
       background-color: #333333; }
   .benefits-block__about {
     font-size: 14px;
