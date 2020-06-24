@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Born Strong';
-  src: url("/common/fonts/BornStrong-Black.ttf"); }
+  src: url("/fonts/BornStrong-Black.ttf"); }
 
 @font-face {
   font-family: 'Thirsty Script';
-  src: url("/common/fonts/ThirstyScriptRegular.otf"); }
+  src: url("/fonts/ThirstyScriptRegular.otf"); }
 
 @font-face {
   font-family: 'Futura';
-  src: url("/common/fonts/FuturaTEE Bold.ttf"); }
+  src: url("/fonts/FuturaTEE Bold.ttf"); }
 
 * {
   padding: 0;
@@ -65,13 +65,13 @@ a {
 .hero {
   height: 400px;
   padding: 78px 0 45px 0;
-  background: url("/common/img/back-desktop.png") no-repeat center top/cover;
+  background: url("/img/back-desktop.png") no-repeat center top/cover;
   text-align: center; }
   .hero::after {
     content: '';
     display: flex;
     height: 61px;
-    background: url("/common/img/intro-triangle.svg.png") no-repeat center top/contain; }
+    background: url("/img/intro-triangle.svg.png") no-repeat center top/contain; }
   .hero__greetings {
     font-family: 'Born Strong';
     color: #81b3d2;
@@ -121,7 +121,8 @@ a {
     font-weight: 700; }
   .reasons__subdescription {
     font-size: 14px;
-    font-weight: 400; }
+    font-weight: 400;
+    padding-bottom: 55px; }
 
 .city {
   display: flex;
@@ -179,15 +180,15 @@ a {
     font-weight: 400; }
 
 .advatages__card--housing::before {
-  content: url("/common/img/icon-house.png");
+  content: url("/img/icon-house.png");
   margin-bottom: 30px; }
 
 .advatages__card--food::before {
-  content: url("/common/img/icon-burger.png");
+  content: url("/img/icon-burger.png");
   margin-bottom: 30px; }
 
 .advatages__card--souvenir::before {
-  content: url("/common/img/icon-gift.png");
+  content: url("/img/icon-gift.png");
   margin-bottom: 30px; }
 
 .bridge {

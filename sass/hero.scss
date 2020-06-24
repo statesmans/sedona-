@@ -1,13 +1,13 @@
 .hero {
     height: 400px;
     padding: 78px 0 45px 0;
-    background: url('/common/img/back-desktop.png') no-repeat center top / cover;
+    background: url('/img/back-desktop.png') no-repeat center top / cover;
     text-align: center;
     &::after {
         content: '';
         display: flex;
         height: 61px;
-        background: url('/common/img/intro-triangle.svg.png') no-repeat center top / contain;
+        background: url('/img/intro-triangle.svg.png') no-repeat center top / contain;
     }
     &__greetings {
         font-family: 'Born Strong';

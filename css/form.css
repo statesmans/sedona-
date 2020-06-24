@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Born Strong';
-  src: url("/common/fonts/BornStrong-Black.ttf"); }
+  src: url("/fonts/BornStrong-Black.ttf"); }
 
 @font-face {
   font-family: 'Thirsty Script';
-  src: url("/common/fonts/ThirstyScriptRegular.otf"); }
+  src: url("/fonts/ThirstyScriptRegular.otf"); }
 
 @font-face {
   font-family: 'Futura';
-  src: url("/common/fonts/FuturaTEE Bold.ttf"); }
+  src: url("/fonts/FuturaTEE Bold.ttf"); }
 
 * {
   padding: 0;
@@ -65,13 +65,13 @@ a {
 .hero {
   height: 400px;
   padding: 78px 0 45px 0;
-  background: url("/common/img/back-desktop.png") no-repeat center top/cover;
+  background: url("/img/back-desktop.png") no-repeat center top/cover;
   text-align: center; }
   .hero::after {
     content: '';
     display: flex;
     height: 61px;
-    background: url("/common/img/intro-triangle.svg.png") no-repeat center top/contain; }
+    background: url("/img/intro-triangle.svg.png") no-repeat center top/contain; }
   .hero__title {
     margin-top: 32px;
     font-family: 'Futura';
@@ -235,7 +235,7 @@ a {
     align-items: center; }
 
 .phone-input::after {
-  content: url("/common/img/phone.svg.png");
+  content: url("/img/phone.svg.png");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -255,7 +255,7 @@ a {
 .mail-input {
   margin-left: 79px; }
   .mail-input::after {
-    content: url("/common/img/mail.svg.png");
+    content: url("/img/mail.svg.png");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -317,7 +317,7 @@ a {
         left: 16px;
         width: 24px;
         height: 16px;
-        background: url("/common/img/tick.svg.png") no-repeat center top;
+        background: url("/img/tick.svg.png") no-repeat center top;
         opacity: 0;
         transition: .2s; }
     .visits__input input:checked + .visits__text:after {

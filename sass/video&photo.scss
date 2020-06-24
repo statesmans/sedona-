@@ -1,17 +1,17 @@
 
 @font-face{
     font-family: 'Born Strong';
-    src: url('/common/fonts/BornStrong-Black.ttf');
+    src: url('/fonts/BornStrong-Black.ttf');
 }
 
 @font-face{
     font-family: 'Thirsty Script';
-    src: url('/common/fonts/ThirstyScriptRegular.otf');
+    src: url('/fonts/ThirstyScriptRegular.otf');
 }
 
 @font-face{
     font-family: 'Futura';
-    src: url('/common/fonts/FuturaTEE\ Bold.ttf');
+    src: url('/fonts/FuturaTEE\ Bold.ttf');
 }
 
 @mixin title {
@@ -93,14 +93,14 @@ a {
 .hero {
     height: 400px;
     padding: 78px 0 45px 0;
-    background: url('/common/img/back-desktop.png') no-repeat center top / cover;
+    background: url('/img/back-desktop.png') no-repeat center top / cover;
     text-align: center;
     
     &::after {
         content: '';
         display: flex;
         height: 61px;
-        background: url('/common/img/intro-triangle.svg.png') no-repeat center top / contain;
+        background: url('/img/intro-triangle.svg.png') no-repeat center top / contain;
     }
 
     &__title {
@@ -120,13 +120,14 @@ a {
     }
 }
 
-.picture-video {
-    padding: 135px 0 85px 0;
+.picture.video {
+    padding: 110px 0 85px 0;
 }
 .picture {
-
+    
 		&__title {
-            @include title();
+            font-size: 30px;
+            font-weight: 700;
             text-align: center;
             margin-bottom: 30px;
         }
@@ -135,28 +136,29 @@ a {
             @include subtitle();
             max-width: 427px;
             margin: 0 auto;
-
+            text-align: center;
+            padding-bottom: 77px;
 		}
 
 		&__item {
             
             &:first-child {
-                background: url('/common/img/photo-1.jpg.png') no-repeat center top / cover;
+                background: url('/img/photo-1.jpg.png') no-repeat center top / cover;
                 height: 400px;
                 width: 100%;
             }
             &:nth-child(2) {
-                background: url('/common/img/photo-2.jpg.png') no-repeat center top / cover;
+                background: url('/img/photo-2.jpg.png') no-repeat center top / cover;
                 height: 257px;
                 width: 33.3333%;
             }
             &:nth-child(3) {
-                background: url('/common/img/photo-3.jpg.png') no-repeat center top / cover;
+                background: url('/img/photo-3.jpg.png') no-repeat center top / cover;
                 height: 257px;
                 width: 33.3333%;
             }
             &:last-child {
-                background: url('/common/img/photo-bridge.png') no-repeat center top / cover;
+                background: url('/img/photo-bridge.png') no-repeat center top / cover;
                 height: 257px;
                 width: 33.3333%;
             }
@@ -194,7 +196,7 @@ a {
             font-weight: 700;
             cursor: pointer;
             &::before {
-                content: url('/common/img/like-icon.svg.png');
+                content: url('/img/like-icon.svg.png');
                 padding-right: 9px;
             }
 		}

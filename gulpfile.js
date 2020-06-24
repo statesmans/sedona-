@@ -6,7 +6,7 @@ const { src } = require('gulp');
 
 
 gulp.task('sass-c', function() {
-    return gulp.src('common/sass/**/*.scss')
+    return gulp.src('./sass/**/*.scss')
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write('./'))
@@ -14,5 +14,5 @@ gulp.task('sass-c', function() {
 })
 
 gulp.task("watch", function() {
-    gulp.watch('common/sass/**/*.scss', gulp.series('sass-c'))
+    gulp.watch('./sass/**/*.scss', gulp.series('sass-c'))
 })
