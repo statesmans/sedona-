@@ -1,0 +1,30 @@
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px; }
+
+.footer__tag {
+  font-size: 21px;
+  font-weight: 700; }
+
+.footer__social {
+  display: flex; }
+
+.footer__development {
+  display: flex;
+  align-items: center; }
+
+.development__defenition {
+  margin-right: 10px; }
+
+.social__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 48px;
+  margin-right: 8px;
+  background-color: #81b3d2; }
+
+/*# sourceMappingURL=footer.css.map */

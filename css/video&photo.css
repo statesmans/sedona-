@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Born Strong';
-  src: url("/fonts/BornStrong-Black.ttf"); }
+  src: url("fonts/BornStrong-Black.ttf"); }
 
 @font-face {
   font-family: 'Thirsty Script';
-  src: url("/fonts/ThirstyScriptRegular.otf"); }
+  src: url("fonts/ThirstyScriptRegular.otf"); }
 
 @font-face {
   font-family: 'Futura';
-  src: url("/fonts/FuturaTEE Bold.ttf"); }
+  src: url("fonts/FuturaTEE Bold.ttf"); }
 
 * {
   padding: 0;
@@ -62,16 +62,45 @@ a {
   .nav-logo .logo-image {
     width: 100%; }
 
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px; }
+
+.footer__tag {
+  font-size: 21px;
+  font-weight: 700; }
+
+.footer__social {
+  display: flex; }
+
+.footer__development {
+  display: flex;
+  align-items: center; }
+
+.development__defenition {
+  margin-right: 10px; }
+
+.social__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 48px;
+  margin-right: 8px;
+  background-color: #81b3d2; }
+
 .hero {
   height: 400px;
   padding: 78px 0 45px 0;
-  background: url("/img/back-desktop.png") no-repeat center top/cover;
+  background: url("img/back-desktop.png") no-repeat center top/cover;
   text-align: center; }
   .hero::after {
     content: '';
     display: flex;
     height: 61px;
-    background: url("/img/intro-triangle.svg.png") no-repeat center top/contain; }
+    background: url("img/intro-triangle.svg.png") no-repeat center top/contain; }
   .hero__title {
     margin-top: 32px;
     font-family: 'Futura';
@@ -108,17 +137,17 @@ a {
   width: 100%; }
 
 .picture__item:nth-child(2) {
-  background: url("/img/photo-2.jpg.png") no-repeat center top/cover;
+  background: url("img/photo-2.jpg.png") no-repeat center top/cover;
   height: 257px;
   width: 33.3333%; }
 
 .picture__item:nth-child(3) {
-  background: url("/img/photo-3.jpg.png") no-repeat center top/cover;
+  background: url("img/photo-3.jpg.png") no-repeat center top/cover;
   height: 257px;
   width: 33.3333%; }
 
 .picture__item:last-child {
-  background: url("/img/photo-bridge.png") no-repeat center top/cover;
+  background: url("img/photo-bridge.png") no-repeat center top/cover;
   height: 257px;
   width: 33.3333%; }
 
@@ -146,7 +175,7 @@ a {
     font-weight: 700;
     cursor: pointer; }
     .image__likes::before {
-      content: url("/img/like-icon.svg.png");
+      content: url("img/like-icon.svg.png");
       padding-right: 9px; }
 
 .caption__block {
@@ -174,34 +203,5 @@ a {
     max-width: 62%;
     display: flex;
     margin: 0 auto; }
-
-.footer__block {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 35px; }
-
-.footer__tag {
-  font-size: 21px;
-  font-weight: 700; }
-
-.footer__social {
-  display: flex; }
-
-.footer__development {
-  display: flex;
-  align-items: center; }
-
-.development__defenition {
-  margin-right: 10px; }
-
-.social__item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 46px;
-  height: 48px;
-  margin-right: 8px;
-  background-color: #81b3d2; }
 
 /*# sourceMappingURL=video&photo.css.map */
