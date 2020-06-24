@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sedona canyon</title>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="sass/main.css">
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
     <div class="page-wraper">
@@ -13,14 +13,14 @@
             <div class="container">
                  <nav class="main-nav">
                      <ul class="main-nav__list site-list">
-                         <li class="site-list__item"><a href="/index.html">главная</a></li>
-                         <li class="site-list__item"><a href="">фото и видео</a></li>
-                         <li class="site-list__item"><a href="/form.html" >форма отзыва</a></li>
-                         <li class="site-list__item"><a href="">html academy</a></li>
+                         <li class="site-list__item"><a href="/common/html/index.html">главная</a></li>
+                         <li class="site-list__item"><a href="/common/html/photo&video.html">фото и видео</a></li>
+                         <li class="site-list__item"><a href="/common/html/form.html" >форма отзыва</a></li>
+                         <li class="site-list__item"><a href="https://htmlacademy.ru/">html academy</a></li>
                      </ul>
                  </nav>
                  <div class="nav-logo">
-                     <img src="/img/logotype-desktop.png" alt="logo" class="logo-image">
+                     <img src="/common/img/logotype-desktop.png" alt="logo" class="logo-image">
                  </div>
             </div>
          </header>
@@ -28,9 +28,9 @@
              <div class="container">
                  <div class="hero-main">
                      <p class="hero__greetings">Welcome</p>
-                     <p class="hero__subgreetings">To the gorgeous</p>
-                     <h1 class="hero__title">Sedona</h1>
-                     <p class="hero__slogan">"Because the Grand Canyon sucks!"</p>
+                     <p class="hero__subgreetings">to the gorgeous</p>
+                     <h1 class="hero__title">SEDONA</h1>
+                     <p class="hero__slogan">"Because the Grand<br> Canyon sucks!"</p>
                  </div>
              </div>
          </section>
@@ -41,13 +41,13 @@
                     <p class="reasons__subdescription">Рассмотри 5 причин, по которым седона лучше чем гранд каньон!</p>
                 </div>
                 <div class="city">
-                    <div class="city__defenition">
-                        <p class="city__defenition__title">Настоящий городок</p>
-                        <p class="city__defenition__subtitle">№1</p>
-                        <p class="city__defenition__about">Седона не атрикцион для туристоа, там течет своя жизнь</p>
+                    <div class="city__defenition defenition">
+                        <p class="defenition__title">Настоящий городок</p>
+                        <p class="defenition__subtitle">№1</p>
+                        <p class="defenition__about">Седона не атрикцион для туристов, там течет своя жизнь</p>
                     </div>
                     <figure class="city__image">
-                        <img src="img/photo-city.png" alt="city">
+                        <img src="/common/img/photoeditorsdk-export (3).png" alt="city">
                     </figure>
                 </div>
                 <div class="advantages">
@@ -61,17 +61,17 @@
                      </div>
                      <div class="advantages__card advatages__card--souvenir">
                         <p class="advantages__title">Сувениры</p>
-                        <p class="advantages__subtitle">Не только китайского, но и местного производства!</p>
+                        <p class="advantages__subtitle">Не только китайского,<br> но и местного производства!</p>
                      </div>
                 </div>
                 <div class="bridge">
                     <figure class="bridge__image">
-                        <img src="img/photo-bridge.png" alt="bridge">
+                        <img src="/common/img/photo-bridge.png" alt="bridge">
                     </figure>
                     <div class="bridge-defenition">
                         <p class="bridge-defenition__title">Там есть мост дьявола</p>
                         <p class="bridge-defenition__subtitle">№2</p>
-                        <p class="bridge-defenition__about">Да, по нему можно пройти! если конечно вы осмелитесь</p>
+                        <p class="bridge-defenition__about">Да, по нему можно пройти! <br>если конечно вы осмелитесь</p>
                     </div>
                 </div>
                 <div class="benefits">
@@ -96,15 +96,15 @@
         <section class="search">
             <div class="container">
                 <h2 class="search__title">Заинтересовались?</h2>
-                <p class="search__subtitle">Укажите предпологаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
-                <form action="/form.html" target="_blank">
-                    <button>Найти гостиницу</button>
+                <p class="search__subtitle">Укажите предпологаемые даты поездки<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+                <form action="/form.html" target="_blank" class="search__submit submit">
+                    <button class="submit__button">Найти гостиницу</button>
                 </form>
             </div>
         </section>
         <section class="map">
             <div class="container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d838162.170770777!2d-112.35552774
+                <iframe class="map__item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d838162.170770777!2d-112.35552774
                              659833!3d34.85444379104851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da13
                              2f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQq
                              NCQ!5e0!3m2!1sru!2sua!4v1592559853199!5m2!1sru!2sua" 
@@ -118,11 +118,14 @@
                 <div class="footer__block">
                     <p class="footer__tag">#visitsedona</p>
                     <div class="footer__social social">
-                        <div class="social__item"><img src="" alt=""></div>
-                        <div class="social__item"><img src="" alt=""></div>
-                        <div class="social__item"><img src="" alt=""></div>
+                        <div class="social__item"><img src="/common/img/icon-twitter.svg.png" alt="twitter"></div>
+                        <div class="social__item"><img src="/common/img/icon-facebook.svg.png" alt="facebook"></div>
+                        <div class="social__item"><img src="/common/img/icon-youtube.svg.png" alt="youtube"></div>
                     </div>
-                    <div class="footer__development"></div>
+                    <div class="footer__development development">
+                        <p class="development__defenition">Разработано</p>
+                        <img src="/common/img/htmlacademy.svg.png" alt="">
+                    </div>
                 </div>
             </div>
         </footer>

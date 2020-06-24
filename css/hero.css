@@ -1,0 +1,48 @@
+.hero {
+  height: 400px;
+  padding: 78px 0 45px 0;
+  background: url("/common/img/back-desktop.png") no-repeat center top/cover;
+  text-align: center; }
+  .hero::after {
+    content: '';
+    display: flex;
+    height: 61px;
+    background: url("/common/img/intro-triangle.svg.png") no-repeat center top/contain; }
+  .hero__greetings {
+    font-family: 'Born Strong';
+    color: #81b3d2;
+    font-size: 55px; }
+  .hero__subgreetings {
+    font-family: 'Thirsty Script';
+    font-size: 31px;
+    line-height: 20px;
+    color: #766357;
+    text-transform: none; }
+    .hero__subgreetings::before {
+      content: '';
+      display: inline-block;
+      width: 30px;
+      height: 2px;
+      vertical-align: middle;
+      margin-right: 12px;
+      background-color: #766357; }
+    .hero__subgreetings::after {
+      content: '';
+      display: inline-block;
+      width: 30px;
+      height: 2px;
+      vertical-align: middle;
+      margin-left: 12px;
+      background-color: #766357; }
+  .hero__title {
+    margin-top: 32px;
+    font-family: 'Futura';
+    font-size: 122px;
+    color: #fff; }
+  .hero__slogan {
+    font-size: 40px;
+    font-family: 'Thirsty Script';
+    color: #fff;
+    text-transform: none; }
+
+/*# sourceMappingURL=hero.css.map */

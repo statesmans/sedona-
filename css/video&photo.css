@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'Born Strong';
+  src: url("/common/fonts/BornStrong-Black.ttf"); }
+
+@font-face {
+  font-family: 'Thirsty Script';
+  src: url("/common/fonts/ThirstyScriptRegular.otf"); }
+
+@font-face {
+  font-family: 'Futura';
+  src: url("/common/fonts/FuturaTEE Bold.ttf"); }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #000;
+  font-family: 'PT Sans', sans-serif;
+  text-transform: uppercase; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 1200px;
+  margin: auto; }
+
+.page-wraper {
+  -webkit-box-shadow: 0 0 25px -15px #000;
+  box-shadow: 0 0 25px -15px #000; }
+
+.page-header {
+  padding: 19px 0; }
+
+.main-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .main-nav__list .site-list__item {
+    width: 20%;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none; }
+    .main-nav__list .site-list__item a:hover {
+      color: #816554; }
+    .main-nav__list .site-list__item a {
+      color: #000; }
+    .main-nav__list .site-list__item:nth-child(3) {
+      margin-left: auto; }
+  .main-nav__list .site-list__item--active {
+    color: #604e43; }
+
+.nav-logo {
+  position: absolute;
+  top: 0;
+  left: 42%;
+  z-index: 100;
+  width: 15%; }
+  .nav-logo .logo-image {
+    width: 100%; }
+
+.hero {
+  height: 400px;
+  padding: 78px 0 45px 0;
+  background: url("/common/img/back-desktop.png") no-repeat center top/cover;
+  text-align: center; }
+  .hero::after {
+    content: '';
+    display: flex;
+    height: 61px;
+    background: url("/common/img/intro-triangle.svg.png") no-repeat center top/contain; }
+  .hero__title {
+    margin-top: 32px;
+    font-family: 'Futura';
+    font-size: 122px;
+    color: #fff; }
+
+.hero {
+  height: auto;
+  background-position-y: bottom;
+  padding: 78px 0 0 0; }
+  .hero__title {
+    margin-bottom: 36px; }
+
+.picture-video {
+  padding: 135px 0 85px 0; }
+
+.picture__title {
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px; }
+
+.picture__subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 427px;
+  margin: 0 auto; }
+
+.picture__item:first-child {
+  background: url("/common/img/photo-1.jpg.png") no-repeat center top/cover;
+  height: 400px;
+  width: 100%; }
+
+.picture__item:nth-child(2) {
+  background: url("/common/img/photo-2.jpg.png") no-repeat center top/cover;
+  height: 257px;
+  width: 33.3333%; }
+
+.picture__item:nth-child(3) {
+  background: url("/common/img/photo-3.jpg.png") no-repeat center top/cover;
+  height: 257px;
+  width: 33.3333%; }
+
+.picture__item:last-child {
+  background: url("/common/img/photo-bridge.png") no-repeat center top/cover;
+  height: 257px;
+  width: 33.3333%; }
+
+.picture-block {
+  display: flex;
+  flex-wrap: wrap; }
+
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #fff; }
+  .image__caption {
+    margin: 0 0 0 21px; }
+    .image__caption__title {
+      margin-bottom: 10px;
+      font-weight: 700; }
+    .image__caption__subtitle {
+      font-size: 14px; }
+  .image__likes {
+    display: flex;
+    align-items: center;
+    padding: 0 25px 0 0;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer; }
+    .image__likes::before {
+      content: url("/common/img/like-icon.svg.png");
+      padding-right: 9px; }
+
+.caption__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.video-block {
+  padding-top: 72px; }
+
+.video__title {
+  text-align: center;
+  padding-bottom: 20px; }
+
+.video__subtitle {
+  max-width: 427px;
+  margin: 0 auto;
+  text-align: center; }
+
+.video-item {
+  margin-top: 76px; }
+  .video-item video {
+    max-width: 62%;
+    display: flex;
+    margin: 0 auto; }
+
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px; }
+
+.footer__tag {
+  font-size: 21px;
+  font-weight: 700; }
+
+.footer__social {
+  display: flex; }
+
+.footer__development {
+  display: flex;
+  align-items: center; }
+
+.development__defenition {
+  margin-right: 10px; }
+
+.social__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 48px;
+  margin-right: 8px;
+  background-color: #81b3d2; }
+
+/*# sourceMappingURL=video&photo.css.map */
