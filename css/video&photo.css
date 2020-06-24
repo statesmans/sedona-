@@ -100,7 +100,7 @@ a {
     content: '';
     display: flex;
     height: 61px;
-    background: url("../img/intro-triangle.svg.png") no-repeat center top/contain; }
+    background: url("../img/intro-triangle.png") no-repeat center top/contain; }
   .hero__title {
     margin-top: 32px;
     font-family: 'Futura';
@@ -132,17 +132,17 @@ a {
   padding-bottom: 77px; }
 
 .picture__item:first-child {
-  background: url("../img/photo-1.jpg.png") no-repeat center top/cover;
+  background: url("../img/photo-1.png") no-repeat center top/cover;
   height: 400px;
   width: 100%; }
 
 .picture__item:nth-child(2) {
-  background: url("../img/photo-2.jpg.png") no-repeat center top/cover;
+  background: url("../img/photo-2.png") no-repeat center top/cover;
   height: 257px;
   width: 33.3333%; }
 
 .picture__item:nth-child(3) {
-  background: url("../img/photo-3.jpg.png") no-repeat center top/cover;
+  background: url("../img/photo-3.png") no-repeat center top/cover;
   height: 257px;
   width: 33.3333%; }
 
@@ -175,7 +175,7 @@ a {
     font-weight: 700;
     cursor: pointer; }
     .image__likes::before {
-      content: url("../img/like-icon.svg.png");
+      content: url("../img/like-icon.png");
       padding-right: 9px; }
 
 .caption__block {

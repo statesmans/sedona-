@@ -100,7 +100,7 @@ a {
     content: '';
     display: flex;
     height: 61px;
-    background: url("../img/intro-triangle.svg.png") no-repeat center top/contain; }
+    background: url("../img/intro-triangle.png") no-repeat center top/contain; }
   .hero__title {
     margin-top: 32px;
     font-family: 'Futura';
@@ -264,7 +264,7 @@ a {
     align-items: center; }
 
 .phone-input::after {
-  content: url("../img/phone.svg.png");
+  content: url("../img/phone.png");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -284,7 +284,7 @@ a {
 .mail-input {
   margin-left: 79px; }
   .mail-input::after {
-    content: url("../img/mail.svg.png");
+    content: url("../img/mail.png");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -346,7 +346,7 @@ a {
         left: 16px;
         width: 24px;
         height: 16px;
-        background: url("../img/tick.svg.png") no-repeat center top;
+        background: url("../img/tick.png") no-repeat center top;
         opacity: 0;
         transition: .2s; }
     .visits__input input:checked + .visits__text:after {

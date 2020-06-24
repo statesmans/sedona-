@@ -13,7 +13,7 @@
         content: '';
         display: flex;
         height: 61px;
-        background: url('../img/intro-triangle.svg.png') no-repeat center top / contain;
+        background: url('../img/intro-triangle.png') no-repeat center top / contain;
     }
 
     &__title {
@@ -56,17 +56,17 @@
 		&__item {
             
             &:first-child {
-                background: url('../img/photo-1.jpg.png') no-repeat center top / cover;
+                background: url('../img/photo-1.png') no-repeat center top / cover;
                 height: 400px;
                 width: 100%;
             }
             &:nth-child(2) {
-                background: url('../img/photo-2.jpg.png') no-repeat center top / cover;
+                background: url('../img/photo-2.png') no-repeat center top / cover;
                 height: 257px;
                 width: 33.3333%;
             }
             &:nth-child(3) {
-                background: url('../img/photo-3.jpg.png') no-repeat center top / cover;
+                background: url('../img/photo-3.png') no-repeat center top / cover;
                 height: 257px;
                 width: 33.3333%;
             }
@@ -109,7 +109,7 @@
             font-weight: 700;
             cursor: pointer;
             &::before {
-                content: url('../img/like-icon.svg.png');
+                content: url('../img/like-icon.png');
                 padding-right: 9px;
             }
 		}

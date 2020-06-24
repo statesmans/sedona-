@@ -132,7 +132,7 @@ a {
     content: '';
     display: flex;
     height: 61px;
-    background: url("../img/intro-triangle.svg.png") no-repeat center top/contain; }
+    background: url("../img/intro-triangle.png") no-repeat center top/contain; }
   .hero__greetings {
     font-family: 'Born Strong';
     color: #81b3d2;
