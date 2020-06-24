@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Born Strong';
-  src: url("/fonts/BornStrong-Black.ttf"); }
+  src: url("fonts/BornStrong-Black.ttf"); }
 
 @font-face {
   font-family: 'Thirsty Script';
-  src: url("/fonts/ThirstyScriptRegular.otf"); }
+  src: url("fonts/ThirstyScriptRegular.otf"); }
 
 @font-face {
   font-family: 'Futura';
-  src: url("/fonts/FuturaTEE Bold.ttf"); }
+  src: url("fonts/FuturaTEE Bold.ttf"); }
 
 * {
   padding: 0;
