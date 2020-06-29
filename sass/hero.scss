@@ -1,15 +1,12 @@
 .hero {
-    height: 400px;
-    padding: 78px 0 45px 0;
-    background: url('/img/back-desktop.png') no-repeat center top / cover;
+    max-width: 1200px;
+    position: relative;
+    padding: 78px 0 0 0;
+    margin: 0 auto;
+    background: url('../img/back-desktop.png') no-repeat center top / cover;
     text-align: center;
-    &::after {
-        content: '';
-        display: flex;
-        height: 61px;
-        background: url('/img/intro-triangle.svg.png') no-repeat center top / contain;
-    }
-    &__greetings {
+    background-color: #7ca3c8;
+    &__greetings { 
         font-family: 'Born Strong';
         color: #81b3d2;
         font-size: 55px;
@@ -50,5 +47,11 @@
         font-family: 'Thirsty Script';
         color: #fff;
         text-transform: none;
+    }
+    &__triangle {
+        background: url('../img/intro-triangle.png') no-repeat center bottom/ auto;
+        height: 58px;
+        position: relative;
+        bottom: -1px;
     }
 }

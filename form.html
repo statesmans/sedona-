@@ -12,49 +12,48 @@
     <header class="page-header">
         <div class="container">
              <nav class="main-nav">
-                 <ul class="main-nav__list site-list">
+                 <ul class="main-nav__list site-list main-nav__list--closed">
                      <li class="site-list__item"><a href="index.html">главная</a></li>
                      <li class="site-list__item"><a href="photo&video.html">фото и видео</a></li>
-                     <li class="site-list__item"><a href="form.html">форма отзыва</a></li>
+                     <li class="site-list__item"><a href="form.html" >форма отзыва</a></li>
                      <li class="site-list__item"><a href="https://htmlacademy.ru/">html academy</a></li>
                  </ul>
+                 <div class="nav-logo">
+                    <img src="img/logotype-tablet.svg.svg" alt="logo" class="logo-image">
+                    <button class="menu"></button>
+                </div>
              </nav>
-             <div class="nav-logo">
-                 <img src="img/logotype-desktop.png" alt="logo" class="logo-image">
-             </div>
         </div>
      </header>
      <section class="hero">
         <div class="container">
             <div class="hero-main">
-                <h1 class="hero__title">Sedona</h1>
+                <h1 class="hero__title">SEDONA</h1>
             </div>
-            <img src="img/intro-triangle.png" alt="">
-        </div>
+            <div class="hero__triangle"></div>
+        </div> 
     </section>
-
-
     <section class="form">
         <div class="container">
             <h2 class="form__title">Оставьте свой отзыв</h2>
             <p class="form__subtitle">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
-            <form action="https://echo.htmlacademy.ru/" class="form">
+            <form action="https://echo.htmlacademy.ru/" class="form__block">
                 <div class="form__wrapper">
-                    <div class="form-feelings feelings">
-                        <h3 class="feeling__title">Ваше Общее впечатление:</h3>
-                        <label class="radio">
-                            <input type="radio" name="s"/>
-                            <div class="radio__text">Скорее положительное</div>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="s"/>
-                            <div class="radio__text">Скорее отрицательное</div>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="s" />
-                            <div class="radio__text">Затрудняюсь ответить</div>
-                        </label>
-                    </div>
+                <div class="form-feelings feelings">
+                    <h3 class="feeling__title">Ваше Общее впечатление:</h3>
+                    <label class="radio">
+                        <input type="radio" name="s"/>
+                        <div class="radio__text">Скорее положительное</div>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="s"/>
+                        <div class="radio__text">Скорее отрицательное</div>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="s" />
+                        <div class="radio__text">Затрудняюсь ответить</div>
+                    </label>
+                </div>
                     <div class="introduce">
                         <h3 class="introduce__title">Представьтесь:</h3>
                         <div class="introduce__input input">
@@ -75,15 +74,20 @@
                     <h3 class="contact__title">Контактная информация:</h3>
                     <div class="contact__block">
                         <div class="contact__input phone-input">
-                            <label for="tel">Телефон*:</label>
-                            <input class="input__item" type="tel" id="tel" name="tel" placeholder="Введите телефон" required>
+                            <div class="phone-input__wraper">
+                                <label for="tel">Телефон*:</label>
+                                <input class="input__item" type="tel" id="tel" name="tel" placeholder="Введите телефон" required>
+                            </div>
                         </div>
                         <div class="contact__input mail-input">
-                            <label for="mail">Электронная почта*:</label>
-                            <input class="input__item"type="email" id="mail" name="mail" placeholder="Введите e-mail" required>
+                            <div class="phone-input__wraper">
+                                <label for="mail">Электронная почта*:</label>
+                                <input class="input__item"type="email" id="mail" name="mail" placeholder="Введите e-mail" required>
+                            </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="visits">
                     <h3 class="visits__title">посещенные<br> достопримечательности:</h3>
                     <div class="visits__block">
@@ -134,6 +138,7 @@
             </div>
         </div>
     </footer>
+    <script src="main.js"></script>
 </div>
 </body>
 </html>

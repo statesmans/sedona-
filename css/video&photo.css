@@ -82,7 +82,8 @@ a {
 
 .footer__development {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  color: #000; }
 
 .development__defenition {
   margin-right: 10px; }
