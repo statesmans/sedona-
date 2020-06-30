@@ -39,6 +39,27 @@ a {
     text-decoration: none;
 }
 
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+:focus::-webkit-input-placeholder {
+    visibility: hidden;
+}
+   
+:focus::-moz-placeholder {
+    visibility: hidden;
+}
+   
+:focus:-moz-placeholder {
+    visibility: hidden;
+}
+   
+:focus:-ms-input-placeholder {
+    visibility: hidden;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;

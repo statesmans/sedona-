@@ -1,40 +1,18 @@
 @import 'sass/public-style.scss';
 @import 'sass/header.scss';
+@import 'sass/hero.scss';
 @import 'sass/footer.scss';
 
 
-.hero {
-    height: 400px;
-    padding: 78px 0 45px 0;
-    background: url('../img/back-desktop.png') no-repeat center top / cover;
-    text-align: center;
-    
-    &::after {
-        content: '';
-        display: flex;
-        height: 61px;
-        background: url('../img/intro-triangle.png') no-repeat center top / contain;
-    }
 
-    &__title {
-        margin-top: 32px;
-        font-family: 'Futura';
-        font-size: 122px;
-        color: #fff;
-    }
-}
 
-.hero {
-    height: auto;
-    background-position-y: bottom;
-    padding: 78px 0 0 0;
-    &__title {
-        margin-bottom: 36px;
-    }
-}
 
-.picture.video {
+
+.picture-video {
     padding: 110px 0 85px 0;
+    background-color: #fff;
+    position: relative;
+    z-index: 99;
 }
 .picture {
     
@@ -43,6 +21,7 @@
             font-weight: 700;
             text-align: center;
             margin-bottom: 30px;
+            padding-top: 76px;
         }
         
 		&__subtitle {
@@ -54,52 +33,78 @@
 		}
 
 		&__item {
-            
-            &:first-child {
-                background: url('../img/photo-1.png') no-repeat center top / cover;
-                height: 400px;
+            position: relative;
+            & img {
                 width: 100%;
+                height: 257px;
+            }
+            &:first-child {
+                
+                width: 100%;
+                & img{
+                    height: 400px;
+                }
             }
             &:nth-child(2) {
-                background: url('../img/photo-2.png') no-repeat center top / cover;
-                height: 257px;
                 width: 33.3333%;
             }
             &:nth-child(3) {
-                background: url('../img/photo-3.png') no-repeat center top / cover;
-                height: 257px;
                 width: 33.3333%;
             }
             &:last-child {
-                background: url('../img/photo-bridge.png') no-repeat center top / cover;
-                height: 257px;
                 width: 33.3333%;
             }
 
         }
-        &__item {
-		}
 }
 .picture-block {
     display: flex;
     flex-wrap: wrap;
+}
+.image__caption {
+    margin: 0 0 0 21px;
+    &__title {
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+
+    &__subtitle {
+        font-size: 14px;
+    }
 }
 .image {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     color: #fff;
-		&__caption {
-            margin: 0 0 0 21px;
-            &__title {
-                margin-bottom: 10px;
-                font-weight: 700;
-            }
-    
-            &__subtitle {
-                font-size: 14px;
-            }
-		}
+    &:first-child {
+    .image__item-bg {
+        background: url('../img/photo-1.png') no-repeat center top/cover;
+        width: 100%;
+        min-height: 280px;
+    }
+    }
+    &:nth-child(2) {
+    .image__item-bg {
+        background: url('../img/photo-2.png') no-repeat center top/cover;
+        width: 100%;
+        min-height: 280px;
+    }
+    }
+    &:nth-child(3) {
+    .image__item-bg {
+        background: url('../img/photo-3.png') no-repeat center top/cover;
+        width: 100%;
+        min-height: 280px;
+    }
+    }
+    &:last-child {
+    .image__item-bg {
+        background: url('../img/photo-bridge.png') no-repeat center top/cover;
+        width: 100%;
+        min-height: 280px;
+    }
+    }
 
 		&__likes {
             display: flex;
@@ -109,7 +114,7 @@
             font-weight: 700;
             cursor: pointer;
             &::before {
-                content: url('../img/like-icon.png');
+                content: url('../img/like-icon.svg.svg');
                 padding-right: 9px;
             }
 		}
@@ -120,6 +125,9 @@
     align-items: center;
     padding: 22px 0;
     background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
 }
 .video-block {
     padding-top: 72px;
@@ -153,7 +161,7 @@
 
 
 
-
+@import 'sass/Media-query.scss';
 
 
 

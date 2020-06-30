@@ -1,6 +1,9 @@
 
-//////* MEDIA QUERY *//////
-
+//////***************//////////////
+//////***************//////////////
+////// MEDIA FOR INDEX TABLET//////
+//////***************//////////////
+//////***************//////////////
 
 @media (max-width: 992px) {
     .defenition {
@@ -99,20 +102,21 @@
         }
         &::before {
             content: '';
-            position: absolute;
+            position: relative;
             top: -8px;
             left: 0;
             width: 23px;
             height: 4px;
+            display: block;
             background-color: #81b3d2;
         }
         &::after {
             content: '';
-            position: absolute;
-            top: 4px;
+            position: relative;
             left: 0;
             width: 23px;
             height: 4px;
+            display: block;
             background-color: #81b3d2;
             margin-top: 4px;
         }
@@ -283,12 +287,11 @@
 }
 
 
-////// Media for form //////
-
-
-
-
-
+//////***************//////
+//////***************//////
+////// MEDIA FOR FORM//////
+//////***************//////
+//////***************//////
 
 @media(max-width: 1020px) {
     .form__wrapper {
@@ -301,7 +304,7 @@
         padding: 69px 57px 65px 57px;
     }
     .form__subtitle {
-        max-width: 57%;
+        max-width: 401px;
         
     }
     .form-feelings {
@@ -480,6 +483,159 @@
         &__input {
             &:nth-child(2) {
                 margin-bottom: 0;
+            }
+        }
+    }
+}
+
+
+//////***************/////////////
+//////***************/////////////
+////// MEDIA FOR PHOTO&VIDEO//////
+//////***************/////////////
+//////***************/////////////
+
+@media (max-width: 991px) {
+    .picture-video {
+        padding: 0px 60px 40px 60px;
+    }
+    .caption__block {
+        position: relative;
+    }
+    .picture {
+        &__item {
+            &:nth-child(2) {
+                width: 50%;
+            }
+            &:nth-child(3) {
+                width: 50%;
+            }
+            &:last-child {
+                width: 50%;
+            }
+            &:nth-child(n+1) .caption__block{
+                background-color: #f2f2f2;
+            }
+            &:nth-child(n+3) .caption__block{
+                background-color: #eaeaea;
+            }
+        }
+    }
+    .image__caption {
+        .caption__title {
+            color: #000;
+        }
+        .caption__subtitle {
+            color: #333;
+        }
+    }
+    .image__likes {
+        color: #000;
+        &::before {
+            content: url('../img/like-icon2.png');
+        }
+    }
+    .video-item video {
+        max-width: none;
+        width: 100%;
+    }
+  }
+
+@media(max-width: 768px) {
+    .picture-video {
+        padding: 0 0 40px 0;
+    }
+    .picture {
+        &__item {
+            padding: 22px 20px;
+            border-top: 1px solid #e5e5e5;
+            &:nth-child(2) {
+                width: 100%;
+            }
+            &:nth-child(3) {
+                width: 100%;
+            }
+            &:last-child {
+                width: 100%;
+            }
+            &:nth-child(n+1) .caption__block{
+                background-color: #fff;
+            }
+            &:nth-child(n+3) .caption__block{
+                background-color: #fff;
+            }
+        }
+        &__subtitle {
+            padding-bottom: 0;
+            padding: 0px 13px 33px 20px;
+        }
+    }
+    .image {
+        &__likes {
+            padding: 12px 0 0 0;
+        }
+        &__caption {
+            margin: 0;
+        }
+    }
+
+    .caption {
+        &__title {
+            margin-bottom: 3px;
+        }
+        &__block {
+            display: block;
+            position: relative;
+            background-color: #fff;
+        }
+    }
+    .caption__title {
+        color: #000;
+    }
+    .caption__subtitle {
+        color: #333;
+    }
+    .image__likes {
+        color: #000;
+    }
+    .video-block {
+        padding-top: 25px;
+        border-top: 1px solid #e5e5e5;
+    }
+    .video {
+
+        &__title {
+            font-size: 18px;
+            padding: 0 20px;
+        }
+        &__subtitle {
+            font-size: 14px;
+            padding: 0 20px;
+        }
+    }
+        
+}
+
+@media(min-width: 580px) {
+    .picture {
+        &__item {
+            padding: 22px 20px;
+            border-top: 1px solid #e5e5e5;
+            &:first-child {
+                width: 73%;
+                margin: 0 auto;
+            }
+            &:nth-child(2) {
+                width: 73%;
+                margin: 0 auto;
+            }
+            &:nth-child(3) {
+                width: 73%;
+                margin: 0 auto;
+            }
+            &:last-child {
+                width: 73%;
+                margin: 0 auto;
             }
         }
     }

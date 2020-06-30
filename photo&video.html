@@ -9,32 +9,31 @@
     <link rel="stylesheet" href="css/video&photo.css">
 </head>
 <body>
-    <div class="page-wraper">
-            <header class="page-header">
-                <div class="container">
-                     <nav class="main-nav">
-                         <ul class="main-nav__list site-list">
-                             <li class="site-list__item"><a href="index.html">главная</a></li>
-                             <li class="site-list__item"><a href="photo&video.html">фото и видео</a></li>
-                             <li class="site-list__item"><a href="form.html">форма отзыва</a></li>
-                             <li class="site-list__item"><a href="https://htmlacademy.ru/">html academy</a></li>
-                         </ul>
-                     </nav>
-                     <div class="nav-logo">
-                         <img src="img/logotype-desktop.png" alt="logo" class="logo-image">
-                     </div>
+    <header class="page-header">
+        <div class="container">
+             <nav class="main-nav">
+                 <ul class="main-nav__list site-list main-nav__list--closed">
+                     <li class="site-list__item"><a href="index.html">главная</a></li>
+                     <li class="site-list__item"><a href="photo&video.html">фото и видео</a></li>
+                     <li class="site-list__item"><a href="form.html" >форма отзыва</a></li>
+                     <li class="site-list__item"><a href="https://htmlacademy.ru/">html academy</a></li>
+                 </ul>
+                 <div class="nav-logo">
+                    <img src="img/logotype-tablet.svg.svg" alt="logo" class="logo-image">
+                    <button class="menu"></button>
                 </div>
-             </header>
-             <section class="hero">
-                <div class="container">
-                    <div class="hero-main">
-                        <h1 class="hero__title">Sedona</h1>
-                    </div>
-                </div>
-            </section>
-
-
-         <div class="picture video">
+             </nav>
+        </div>
+     </header>
+     <section class="hero">
+        <div class="container">
+            <div class="hero-main">
+                <h1 class="hero__title">SEDONA</h1>
+            </div>
+            <div class="hero__triangle"></div>
+        </div> 
+    </section>
+         <div class="picture-video">
              <h2 class="picture__title">Фото и видео</h2>
              <p class="picture__subtitle">
                 Не можете решиться на путешествие из-за курса?
@@ -42,6 +41,7 @@
              </p>
             <div class="picture-block picture">
                 <figure class="picture__item image">
+                    <div class="image__item-bg"></div>
                     <div class="caption__block">
                         <div class="image__caption">
                             <h5 class="caption__title">неродные просторы</h5>
@@ -51,6 +51,7 @@
                     </div>
                 </figure>
                 <figure class="picture__item image">
+                    <div class="image__item-bg"></div>
                     <div class="caption__block">
                         <div class="image__caption">
                             <h5 class="caption__title">Местная растительность</h5>
@@ -60,6 +61,7 @@
                     </div>
                 </figure>
                 <figure class="picture__item image">
+                    <div class="image__item-bg"></div>
                     <div class="caption__block">
                         <div class="image__caption">
                             <h5 class="caption__title">Дорога на северр</h5>
@@ -68,7 +70,8 @@
                         <div class="image__likes">96</div>
                     </div>
                 </figure>
-                <figure class="picture__item image">
+               <figure class="picture__item image">
+                    <div class="image__item-bg"></div>
                     <div class="caption__block">
                         <div class="image__caption">
                             <h5 class="caption__title">Мост дьявола</h5>
@@ -90,28 +93,23 @@
                 </div>
             </div>
          </div>
-
-
-
-
-
-        
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__block">
-                <p class="footer__tag">#visitsedona</p>
-                <div class="footer__social social">
-                    <div class="social__item"><img src="img/icon-twitter.png" alt="twitter"></div>
-                    <div class="social__item"><img src="img/icon-facebook.png" alt="facebook"></div>
-                    <div class="social__item"><img src="img/icon-youtube.png" alt="youtube"></div>
-                </div>
-                <div class="footer__development development">
-                    <p class="development__defenition">Разработано</p>
-                    <img src="img/htmlacademy.png" alt="">
+         <footer class="footer">
+            <div class="container">
+                <div class="footer__block">
+                    <p class="footer__tag">#visitsedona</p>
+                    <div class="footer__social social">
+                        <div class="social__item"><img src="img/icon-twitter.png" alt="twitter"></div>
+                        <div class="social__item"><img src="img/icon-facebook.png" alt="facebook"></div>
+                        <div class="social__item"><img src="img/icon-youtube.png" alt="youtube"></div>
+                    </div>
+                    <div class="footer__development development">
+                        <p class="development__defenition">Разработано</p>
+                        <img src="img/htmlacademy.png" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+        <script src="main.js"></script>
     </div>
 </body>
 </html>
