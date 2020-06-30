@@ -504,6 +504,9 @@
     }
     .picture {
         &__item {
+            &:first-child {
+                height: 400px;
+            }
             &:nth-child(2) {
                 width: 50%;
             }
@@ -549,6 +552,7 @@
         &__item {
             padding: 22px 20px;
             border-top: 1px solid #e5e5e5;
+
             &:nth-child(2) {
                 width: 100%;
             }
@@ -640,3 +644,8 @@
         }
     }
 } 
+
+@media (max-width: 400px) {
+
+
+}

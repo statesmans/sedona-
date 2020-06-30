@@ -345,6 +345,8 @@
     padding: 0px 60px 40px 60px; }
   .caption__block {
     position: relative; }
+  .picture__item:first-child {
+    height: 400px; }
   .picture__item:nth-child(2) {
     width: 50%; }
   .picture__item:nth-child(3) {
@@ -412,7 +414,7 @@
     font-size: 14px;
     padding: 0 20px; } }
 
-@media (min-width: 580px) {
+@media (min-width: 580px) and (max-width: 768px) {
   .picture__item {
     padding: 22px 20px;
     border-top: 1px solid #e5e5e5; }

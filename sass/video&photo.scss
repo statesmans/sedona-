@@ -68,7 +68,7 @@
         font-weight: 700;
     }
 
-    &__subtitle {
+    &__subtitle { 
         font-size: 14px;
     }
 }
@@ -81,12 +81,12 @@
     .image__item-bg {
         background: url('../img/photo-1.png') no-repeat center top/cover;
         width: 100%;
-        min-height: 280px;
+        height: 400px;
     }
     }
     &:nth-child(2) {
     .image__item-bg {
-        background: url('../img/photo-2.png') no-repeat center top/cover;
+        background: url('../img/photo-2.png') no-repeat center bottom/cover;
         width: 100%;
         min-height: 280px;
     }
