@@ -616,7 +616,7 @@
         
 }
 
-@media(min-width: 580px) {
+@media(min-width: 580px) and (max-width: 768px) {
     .picture {
         &__item {
             padding: 22px 20px;
@@ -639,4 +639,4 @@
             }
         }
     }
-}
+} 
